@@ -1,0 +1,19 @@
+body{
+    font-family: 'Times New Roman';
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 22px;
+    background-color: #000000;
+    color: #00f2ff;
+    text-shadow: 0 0 10px #6c6b6b;
+}
+
+span{
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
